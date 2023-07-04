@@ -1,0 +1,15 @@
+.sec_1 h1 {
+  text-transform: uppercase;
+  font-size: 13rem;
+  margin-top: -40px;
+}
+.sec_1 .desc_top {
+  text-transform: uppercase;
+  font-size: 9rem;
+  font-weight: 600;
+  word-spacing: -20px;
+  margin-top: -30px;
+}
+.sec_1 img {
+  width: 100%;
+}/*# sourceMappingURL=sec_1.css.map */
