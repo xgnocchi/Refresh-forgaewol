@@ -7,5 +7,10 @@ body {
   /* background-image: url(/img/noise.png); */
   background-color: #000;
   color: #fff;
-  font-family: 'Noto Sans', 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+}
+
+.hidden {
+  position: absolute;
+  left: -10000000px;
 }

@@ -1,17 +1,28 @@
 .sec_1 {
-  h1 {
-    text-transform: uppercase;
-    font-size: 13rem;
-    margin-top: -40px;
+  .naming {
+    img {
+      width: 100%;
+    }
   }
-  .desc_top {
-    text-transform: uppercase;
-    font-size: 9rem;
-    font-weight: 600;
-    word-spacing: -20px;
-    margin-top: -30px;
+
+  .img_main {
+    img {
+      width: 100%;
+    }
   }
-  img{
-   width: 100%;
+
+  .desc {
+    height: 250px;
+    background-image: url(../img/desc.png);
+    background-repeat: repeat-x;
+    animation: movingDesc 100000s linear infinite;
+  }
+  @keyframes movingDesc {
+    0% {
+      background-position: 0 center;
+    }
+    100% {
+      background-position: -10000000px center;
+    }
   }
 }
