@@ -1,3 +1,6 @@
+.sec_1 .naming {
+  width: 50%;
+}
 .sec_1 .naming img {
   width: 100%;
 }
@@ -5,7 +8,7 @@
   width: 100%;
 }
 .sec_1 .desc {
-  height: 250px;
+  height: 230px;
   background-image: url(../img/desc.png);
   background-repeat: repeat-x;
   animation: movingDesc 100000s linear infinite;
